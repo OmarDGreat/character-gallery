@@ -1,6 +1,7 @@
 const Character = ({ name, imgUrl, birth, death, race, realm, spouse }) => {
     return (
         <div>
+            <h2>HEllo Update 1</h2>
             <h2>{ name }</h2>
 
             <img src={ imgUrl } alt={ name } />
