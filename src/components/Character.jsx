@@ -4,11 +4,11 @@ const Character = ({ name, imgUrl, birth, death, race, realm, spouse }) => {
             <h2>HEllo Update 1</h2>
             <h2>{ name }</h2>
 
-            <img src={ imgUrl } alt={ name } />
+            {/* <img src={ imgUrl } alt={ name } /> */}
 
             <ul>
                 <li>
-                    Date of Birth: { birth }
+                    {/* Date of Birth: { birth } */}
                 </li>
                 <li>
                     Date of Death: { death }
